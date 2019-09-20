@@ -32,24 +32,16 @@ package
    import flash.ui.ContextMenuItem;
    import flash.ui.Mouse;
    import flash.utils.getTimer;
-   
+
    public class _uy1049 extends Sprite
    {
-      
       public static var _ex830:Class = _uy1049__ex830;
-      
       public static var loaded:Boolean = false;
-      
       public static var _gm1176:Class = _uy1049__gm1176;
-      
       public static var _mx832:Class = _uy1049__mx832;
-      
       public static var _pj893:Class = _uy1049__pj893;
-      
       public static var _tq844:Class = _uy1049__tq844;
-      
       public static var _mx160:Number = 57.29578;
-      
       public static var _ee1366:Class = _uy1049__ee1366;
       
       public static var _yd235:Class = _uy1049__yd235;
@@ -2838,7 +2830,7 @@ package
             removeChild(this._ac1326);
          }
       }
-      
+
       public function _mt1369(param1:Event) : void
       {
          if(this._tl596 > 0)
@@ -2848,7 +2840,7 @@ package
             this._tl596 = 0;
          }
       }
-      
+
       public function _ka1372(param1:Event) : void
       {
          this.paused = true;
